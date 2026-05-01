@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="40dp"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp">
+
+    <!-- News List -->
+    <Button
+        android:id="@+id/btnNews1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AI is growing fast"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnNews2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Technology Trends 2025"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnNews3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Space Research Updates"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Fragment Container -->
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
