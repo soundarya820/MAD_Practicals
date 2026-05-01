@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- ✅ ONLY ONE CHILD INSIDE SCROLLVIEW -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:paddingTop="40dp"
+        android:background="#F5F5F5">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Employee Salary Sheet"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Table Layout -->
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:background="#FFFFFF">
+
+            <!-- Header -->
+            <TableRow>
+                <TextView android:text="Name" android:textStyle="bold" android:padding="8dp"/>
+                <TextView android:text="Role" android:textStyle="bold" android:padding="8dp"/>
+                <TextView android:text="Salary" android:textStyle="bold" android:padding="8dp"/>
+            </TableRow>
+
+            <!-- Row 1 -->
+            <TableRow>
+                <TextView android:text="Rahul" android:padding="8dp"/>
+                <TextView android:text="Developer" android:padding="8dp"/>
+                <TextView android:text="₹50,000" android:padding="8dp"/>
+            </TableRow>
+
+            <!-- Row 2 -->
+            <TableRow>
+                <TextView android:text="Sneha" android:padding="8dp"/>
+                <TextView android:text="Designer" android:padding="8dp"/>
+                <TextView android:text="₹40,000" android:padding="8dp"/>
+            </TableRow>
+
+            <!-- Row 3 -->
+            <TableRow>
+                <TextView android:text="Amit" android:padding="8dp"/>
+                <TextView android:text="Manager" android:padding="8dp"/>
+                <TextView android:text="₹70,000" android:padding="8dp"/>
+            </TableRow>
+
+            <!-- Row 4 -->
+            <TableRow>
+                <TextView android:text="Priya" android:padding="8dp"/>
+                <TextView android:text="Tester" android:padding="8dp"/>
+                <TextView android:text="₹35,000" android:padding="8dp"/>
+            </TableRow>
+
+            <!-- Row 5 -->
+            <TableRow>
+                <TextView android:text="Karan" android:padding="8dp"/>
+                <TextView android:text="HR" android:padding="8dp"/>
+                <TextView android:text="₹45,000" android:padding="8dp"/>
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</ScrollView>
